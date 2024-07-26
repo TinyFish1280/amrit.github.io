@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+/* Reset some default styles and set body font */
+body {
+    font-family: 'Archivo', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1, h2, h3, p {
+    font-family: 'Archivo', sans-serif;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Space out items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.site-title h1 {
+    font-size: 20px; /* Adjust font size */
+    font-weight: normal; /* Ensure normal font weight */
+    margin: 0; /* Remove margin */
+    color: #fff; /* Set text color to white */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center section content horizontally */
+    align-items: center; /* Center section content vertically */
+    text-align: center;
+}
+
+/* Default background color for sections */
+section {
+    background-color: white;
+}
+
+/* Apply styles to the "About Me" paragraph */
+.additional-info p {
+    font-size: 25px; /* Adjust the font size as needed */
+    line-height: 1.2; /* Adjust the line height for a more condensed spacing */
+    margin: 5px 0; /* Adjust the margins for vertical spacing */
+    max-width: 600px; /* Limit the width to avoid overly long lines */
+}
+
+#about{
+    font-size: 20px;
+}
+/* Centered container for "Hi, I am John" content */
+.about-intro {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    font-size: 24px; /* Adjust font size */
+}
+
+.about-intro h2 {
+    font-size: 40px; /* Adjust font size */
+    margin-bottom: 10px;
+}
+
+.about-intro p {
+    font-size: 18px; /* Adjust font size */
+    color: #777;
+}
+
+/* Apply dark mode styles */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+/* Adjust background color for sections in dark mode */
+.dark-mode section {
+    background-color: rgb(104, 104, 114);
+}
+
+/*
+This code is most likely to be useless
+*/
+.about-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*
+This code is most likely to be useless
+*/
+.about-text h2 {
+    font-size: 36px; /* Increase the font size */
+    margin-bottom: 10px;
+}
+
+/*
+This code is most likely to be useless
+*/
+.about-text p {
+    font-size: 20px; /* Increase the font size */
+    color: #777;
+}
+
+.toggle-mode-button {
+    margin-left: auto; /* Pushes the button to the far right */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-mode-button:hover {
+    background-color: rgb(104, 104, 114);
+}
+
+/* Projects section styles */
+#projects li {
+    margin-bottom: 50px;
+}
+
+#projects h2 {
+    margin-bottom: 10px;
+}
+
+#projects a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#projects a:hover {
+    background-color: rgb(104, 104, 114);
+}
+
+/* Style the top navigation bar */
+#top-bar {
+    text-align: center;
+    font-size: large;
+}
+
+#contact{
+    font-size: 20px;
+}
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.download-cv-button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 8px 16px; /* Adjust padding */
+    border: none;
+    text-decoration: none;
+    margin-top: 10px; /* Add some spacing */
+    border-radius: 10px;
+    font-size: 16px; /* Adjust font size */
+}
+
+.download-cv-button:hover {
+    background-color: rgb(104, 104, 114);
+}
+
+
+/* Style the "Contact Me" button */
+.contact-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.contact-button:hover {
+    background-color: #666;
+}
+
+
+
+#skills {
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin-top value to move the section slightly up */
+    margin-bottom: 20px;
+    padding-top: 50px; /* Add some padding at the top to move the content lower */
+}
+
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between boxes */
+}
+
+.box {
+    flex: 1;
+    max-width: 250px;
+    padding: 15px 20px; /* Adjust the padding to reduce the height */
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    display: flex; /* Use flex display */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center text horizontally */
+}
+
+.box h2 {
+    font-size: 20px;
+    margin: 0; /* Remove margin to make the heading centered */
+}
+
+.box p {
+    font-size: 14px;
+    margin: 0; /* Remove margin to make the paragraph centered */
+}
+
+
+
+#projects{
+    font-size: 20px;
+}
+/* Apply styles to the "Projects" section */
+.project-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-box {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+    margin: 20px; /* Adjust the margin */
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.project-box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.project-box p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.project-box a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Add styles for the profile image */
+.profile-image {
+    width: 150px; /* Adjust the width and height to your preference */
+    height: 150px;
+    border-radius: 50%; /* Create a circular frame */
+    overflow: hidden; /* Clip the image inside the circular frame */
+    border: 2px solid #000; /* Add a border for the circular frame */
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add spacing between the image and text */
+    margin-left: -225px; /* Adjust to move the image more to the left */
+    margin-top: 32px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio */
+    object-position: 10% center;
+}
+
+/* Adjust styles for the intro text */
+.intro-text {
+    overflow: hidden; /* Clear the float */
+}
+
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Slightly reduce the gap */
+    margin-top: 20px;
+}
+
+/* Adjust the styles for the email icon */
+.icon-box {
+    width: 50px; /* Set a fixed width for the icon box */
+    height: 50px; /* Set a fixed height for the icon box */
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box i {
+    font-size: 20px; /* Make the icon a little smaller */
+    color: black;
+}
+
+/* Adjust the styles for the email container */
+.email-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Add spacing between sections */
+}
+
+
+
+.email-icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+}
+
+/* Adjust the styles for the email text */
+.email-text {
+    font-size: 16px; /* Adjust font size */
+    margin-left: 10px; /* Add spacing between icon and text */
+}
+
+
